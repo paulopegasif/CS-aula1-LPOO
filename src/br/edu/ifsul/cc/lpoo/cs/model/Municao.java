@@ -1,24 +1,16 @@
 package br.edu.ifsul.cc.lpoo.cs.model;
 
 public class Municao extends Artefato {
-    private Integer id;
-    private String nome;
+    private Boolean explosiva;
 
     public Municao(){
     }
-    public Integer getId() {
-        return id;
+
+    public Boolean getExplosiva() {
+        return explosiva;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setExplosiva(Boolean explosiva) {
+        this.explosiva = explosiva;
     }
 }

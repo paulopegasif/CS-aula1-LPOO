@@ -19,6 +19,7 @@ public class Jogador {
     public Jogador() { //metodo construtor sem argumentos
     }
 
+
     public String getNickname() {
         return nickname;
     }
@@ -67,5 +68,27 @@ public class Jogador {
         this.enderecoJogador = enderecoJogador;
     }
 
+    public List<Patente> getListaPatentes() {
+        return listaPatentes;
+    }
 
+    public void setListaPatentes(List<Patente> listaPatentes) {
+        this.listaPatentes = listaPatentes;
+    }
+
+    public List<Artefato> getListaArtefatos() {
+        return listaArtefatos;
+    }
+
+    public void setListaArtefatos(List<Artefato> listaArtefatos) {
+        this.listaArtefatos = listaArtefatos;
+    }
+
+    public List<Compra> getListaCompras() {
+        return listaCompras;
+    }
+
+    public void setListaCompras(List<Compra> listaCompras) {
+        this.listaCompras = listaCompras;
+    }
 }
