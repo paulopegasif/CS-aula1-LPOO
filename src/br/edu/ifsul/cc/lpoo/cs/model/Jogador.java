@@ -12,6 +12,8 @@ public class Jogador {
     private Calendar dataUltimoLogin;
     private Endereco enderecoJogador; //associacao
     private List<Patente> listaPatentes; //agregacao
+    private List<Artefato> listaArtefatos; //agregacao
+    private List<Compra> listaCompras; //agregacao por composicao
 
 
     public Jogador() { //metodo construtor sem argumentos
